@@ -25,16 +25,16 @@ Dependencies:
 	
 *** Needs to be set:  
     - dirXd          :  directory for where to find XDATCAR ... assumes the form run1_n ... n = number of runs
-	- atTyp          :  label for plot file name
+    - atTyp          :  label for plot file name
     - title          :  Title used in the pdf plot (set right now for this specific analysis)
     - fwRt           :  Filename used to save pdf plots.
-	- simTyp         :  'npt' or 'nvt'
-	- atom_indices   :  for which set of atoms are we calculating the MSD (right now, only set to do in a range, e.g., 1-20)
-	                     ... but can be changed easily
+    - simTyp         :  'npt' or 'nvt'
+    - atom_indices   :  for which set of atoms are we calculating the MSD (right now, only set to do in a range, e.g., 1-20)
+	        			... but can be changed easily
 						 
 *** Assumes:
     - npt = with oxide
-	- nvt = without oxide
+    - nvt = without oxide
 
 Usage Example:
     python msd_analysis.py dopant_name 0 1 10
