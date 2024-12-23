@@ -37,4 +37,4 @@ Dependencies:
     - nvt = without oxide
 
 Usage Example:
-    python msd_analysis.py dopant_name 0 1 10
+    python mainMsd.py gaBi 0 1 10
